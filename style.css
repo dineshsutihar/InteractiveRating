@@ -14,3 +14,17 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+/* Responsive section */
+@media (min-width: 376px) {
+  /* Styles for screens wider than 375px (e.g., small tablets) */
+
+  .rating-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1441px) {
+  /* Styles for screens wider than 1440px (e.g., desktops) */
+}
