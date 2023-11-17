@@ -23,32 +23,29 @@ main{
 
 /* screen 1 */
 .screen1{
-width: 90%;
-height: max-content;
+width: 335px;
+height: 365px;
 background-color: hsl(213, 19%, 18%);
-border-radius: 10px;
+border-radius: 15px;
 margin: 10px;
 padding: 20px;
+display: none;
 
 }
 
 .screen1 img{
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   
 }
-li{
-  margin-bottom: 10px;
-  width: 50px;
-  height: 50px;
 
-}
 .oval{
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: hsl(216, 12%, 50%);
+  background-color: hsl(213, 18%, 29%);
+  color:hsl(217, 12%, 63%) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,8 +57,13 @@ li{
 h1 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
+}
+p{
+  color: hsl(217, 12%, 63%);
+  font-weight: 300;
+  margin-bottom: 20px;
 }
 
 ul{
@@ -71,16 +73,70 @@ ul{
   justify-content:space-around;
   align-items:flex-start;
   flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+li{
+ 
+  width: 50px;
+  height: 50px;
 }
 
+button{
+  width: 100%;
+  height: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 25px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
 
 
 /* Screen 2 */
 .screen2{
-  display: none;
+  width: 335px;
+  height: 365px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen2 img{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
+
+.rOutput{
+  color:hsl(25, 97%, 53%) ;
+  background-color: hsl(213, 18%, 29%);
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+.screen2 p{
+  color: hsl(217, 12%, 63%);
+  font-weight: 300;
+  margin-bottom: 20px;
+  text-align: center;
+}
 
 
 /* Footer elements */
