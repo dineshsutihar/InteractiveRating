@@ -10,6 +10,7 @@
 body{
   background-color: hsl(216, 12%, 8%);
   color: hsl(0, 0%, 100%);
+  font-size: 15px;
 }
 main{
   width: 100%;
@@ -26,19 +27,51 @@ width: 90%;
 height: max-content;
 background-color: hsl(213, 19%, 18%);
 border-radius: 10px;
+margin: 10px;
+padding: 20px;
+
+}
+
+.screen1 img{
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+li{
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
 
 }
 .oval{
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  background-color: hsl(232, 19%, 15%);
+  background-color: hsl(216, 12%, 50%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
+
 }
 
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:flex-start;
+  flex-wrap: nowrap;
+}
 
 
 
