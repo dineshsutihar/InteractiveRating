@@ -91,6 +91,17 @@ button {
   cursor: pointer;
 }
 
+button:hover{
+  color: hsl(25, 97%, 43%);
+  background-color: hsl(0, 0%, 100%);
+
+}
+li:hover{
+  background-color: hsl(25, 97%, 43%);
+  color: hsl(0, 0%, 100%);
+}
+
+
 /* Screen 2 */
 #container2 {
   display: none;
