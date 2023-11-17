@@ -81,7 +81,7 @@ li {
 
 button {
   width: 100%;
-  height: 50px;
+  height: 40px;
   background-color: hsl(25, 97%, 53%);
   border: none;
   border-radius: 25px;
@@ -91,6 +91,7 @@ button {
   margin-bottom: 20px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  margin-top: 15px;
 }
 
 button:hover{
@@ -176,14 +177,14 @@ li:hover {
 }
 
 /* Responsive section */
-@media (min-width: 376px) {
-  /* Styles for screens wider than 375px (e.g., small tablets) */
 
-  .rating-container {
-    flex-direction: row;
-  }
-}
 
 @media (min-width: 1441px) {
   /* Styles for screens wider than 1440px (e.g., desktops) */
+  .screen2 {
+    transform: scale(1.2);
+  }
+  .screen1 {
+    transform: scale(1.2);
+  }
 }
