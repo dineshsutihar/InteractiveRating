@@ -5,11 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     var content1 = document.querySelector("#container1");
     var content2 = document.querySelector("#container2");
 
-
-
-    console.log(numbers);
-    console.log(OutputRating);
-    console.log(button);
   
     numbers.forEach((li, index) => {
       li.addEventListener('click', () => {
