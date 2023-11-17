@@ -16,7 +16,7 @@ numbers.forEach((number, index) => {
 
 
 
-screen.addEventListener("click",function(){
+buttom.addEventListener("click",function(){
     content1.style.display="none";
     // removing the display none from container 2
     content2.style.display="block";
