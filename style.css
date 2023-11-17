@@ -7,12 +7,12 @@
   font-family: "Overpass", sans-serif;
 }
 
-body{
+body {
   background-color: hsl(216, 12%, 8%);
   color: hsl(0, 0%, 100%);
   font-size: 15px;
 }
-main{
+main {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -23,65 +23,62 @@ main{
 
 /* screen 1 */
 
-.screen1{
-width: 335px;
-height: 365px;
-background-color: hsl(213, 19%, 18%);
-border-radius: 15px;
-margin: 10px;
-padding: 20px;
-
+.screen1 {
+  width: 335px;
+  height: 365px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  margin: 10px;
+  padding: 20px;
 }
 
-.screen1 img{
+.screen1 img {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 20px;
-  
 }
 
-.oval{
+.oval {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: hsla(212, 18%, 29%, 0.37);
-  color:hsl(217, 12%, 63%) ;
+  color: hsl(217, 12%, 63%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
-
 }
 
 h1 {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 20px;
-
 }
-p{
+p {
   color: hsl(217, 12%, 63%);
   font-weight: 300;
   margin-bottom: 20px;
 }
 
-ul{
+ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  align-items:flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: nowrap;
   margin-bottom: 20px;
 }
-li{
- 
+li {
+  font-size: 14px;
+  font-weight: 700;
   width: 50px;
   height: 50px;
 }
 
-button{
+button {
   width: 100%;
   height: 50px;
   background-color: hsl(25, 97%, 53%);
@@ -94,12 +91,11 @@ button{
   cursor: pointer;
 }
 
-
 /* Screen 2 */
-#container2{
+#container2 {
   display: none;
 }
-.screen2{
+.screen2 {
   width: 335px;
   height: 365px;
   background-color: hsl(213, 19%, 18%);
@@ -112,7 +108,7 @@ button{
   align-items: center;
 }
 
-.screen2 img{
+.screen2 img {
   padding: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -122,10 +118,8 @@ button{
   align-items: center;
 }
 
-
-
-.rOutput{
-  color:hsl(25, 97%, 53%) ;
+.rOutput {
+  color: hsl(25, 97%, 53%);
   background-color: hsla(212, 18%, 29%, 0.37);
   width: 60%;
   text-align: center;
@@ -134,13 +128,12 @@ button{
   margin-bottom: 25px;
 }
 
-.screen2 p{
+.screen2 p {
   color: hsl(217, 12%, 63%);
   font-weight: 300;
   margin-bottom: 20px;
   text-align: center;
 }
-
 
 /* Footer elements */
 
@@ -152,12 +145,10 @@ button{
   bottom: 0;
   width: 100%;
   color: hsl(228, 45%, 44%);
-
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
 
 /* Responsive section */
 @media (min-width: 376px) {
